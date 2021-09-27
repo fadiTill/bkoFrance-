@@ -32,3 +32,21 @@ header{
    border-bottom-color: grey;
    border-bottom-width: 1px;
 }
+ 
+
+header a {
+    color:black;
+    font-weight:lighter;
+    text-decoration: none;
+}
+.logo a{
+    font-size: 3rem;
+}
+header a:hover {
+ color:grey;
+}
+
+
+footer{
+    background-color: black
+}
