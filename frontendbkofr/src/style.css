@@ -50,9 +50,9 @@ header a:hover {
 
 footer{
     background-color:white;
-      /* display: flex;  
-      justify-content: center;  */
-    /* align-items: center;  */
+       display:flex ;
+      justify-content: center;  
+     align-items: center;  
     color: black;
     font-family:'Old Standard TT', serif
 }
@@ -154,7 +154,13 @@ footer{
     font-weight: 900;
     letter-spacing: 0px;
   }
-  
+  a{
+    text-decoration: none;
+    color: black;
+  }
+   a:hover{
+     color: gray;
+   }
   
   
   .product-caption {
