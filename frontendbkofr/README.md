@@ -39,3 +39,16 @@
        11. create router()function
        12.set main_container innerHTML to HomeScreen.render()
        13. set load event of window to router() function
+
+
+       5.Build Url Router
+       1.create routes as route:object for home screen 
+       2.create  utils.js
+       3.export parserequestURL()
+       4. set url as hash address split by slash
+       5.return resource, id and verb of url
+       6.update router()
+       7. set request as paseRequestURL()
+       8.build parseUrl and compare with routes 
+       9.if route exists render it, else render error404
+       10.create screens/Errors404.js and render error message.
