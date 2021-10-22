@@ -1,11 +1,13 @@
 
-import data from'../dataPillows.js'
+import data from'../data.js'
+
 const HomeScreen = {
     render: () => {
-        const{ products } = dataPillows;
+        const { products } = data;
 return `
 <ul class="products">
-${products.map(product =>`
+${products.map(
+  (product) =>`
 
 <li>
         <div class="container">
@@ -42,7 +44,7 @@ ${products.map(product =>`
                           <i class="fa fa-star grey"></i>
                         </span>
                         <div class="prix">
-                           ${product.price}
+                           $${product.price}
                         </div>
                 </div>
                 <div class="product-properties">
@@ -71,7 +73,9 @@ ${products.map(product =>`
           </div>
           
 </li>
-`)}
 `
-    }
-}
+)}
+`;
+    },
+};
+export default HomeScreen;
