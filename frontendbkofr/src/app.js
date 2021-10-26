@@ -11,8 +11,8 @@ const router = () => {
     const request = parseRequestUrl();
     //if request exist return request else return  homescreen concat ...
     const parseUrl = (request.resource ? `/${request.resource}`: '/')+ 
-    (request.id? '/:id': '')+
-    (request.verb ? `/${request.verb}`: '')
+    (request.id? '/:id': '') +
+    (request.verb ? `/${request.verb}`: '');
     const main = document.getElementById("main-container");
     const screen = routes[parseUrl] ? routes[parseUrl] : Erro404Screen;
     main.innerHTML = screen.render();

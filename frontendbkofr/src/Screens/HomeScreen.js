@@ -65,7 +65,7 @@ ${products.map(
                         </span>
                        
                   <span class="product-price">
-                    <b>Acheter</b>
+                    <b>Buy Now</b>
                         </span>
                 </div>
               </div>
